@@ -28,3 +28,5 @@ F: If you type "F" into chat, Papyrus will do so too!
 ~kick <@user>: Kicks a user.    
 ~mute <@user>: Mutes a user in voice.    
 ~unmute <@user>: Unmutes a user in voice.
+
+Licensed under the MIT license or some shit, idk tbh.
