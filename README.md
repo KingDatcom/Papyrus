@@ -14,7 +14,7 @@ Find the roleIDs by setting the variable "debugMode" to 1 in the JS file.
 
 Find the serverID by opening the channel in the browser Discord client, and copying the *first* number.
 
-Command list:
+Command list:    
 ~quote: Posts a random quote in the chat.    
 ~ping: Pong!    
 ~guide: Posts the 3DS hacking guide in the chat.    
