@@ -28,7 +28,7 @@ var safeOPID = "<SAFEOP ID>"
 // MUST-EDIT VARIABLES END HERE!
 
 // Debug mode: If this is set to 1, the list of roles with their permissions and IDs will be printed to the console.
-var debugMode = 1
+var debugMode = 0
 
 var DiscordClient = require('discord.io');
 var bot = new DiscordClient({
