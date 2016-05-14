@@ -15,14 +15,14 @@ Find the roleIDs by setting the variable "debugMode" to 1 in the JS file.
 Find the serverID by opening the channel in the browser Discord client, and copying the *first* number.
 
 Command list:
-~quote: Posts a random quote in the chat.
-~ping: Pong!
-~guide: Posts the 3DS hacking guide in the chat.
-~confusion: ???
-F: If you type "F" into chat, Papyrus will do so too!
-~builds: Posts the link to Luma3DS builds in the chat.
-~stop: Frank.
-~ban <@user>: Bans a user.
-~kick <@user>: Kicks a user.
-~mute <@user>: Mutes a user in voice.
+~quote: Posts a random quote in the chat.    
+~ping: Pong!    
+~guide: Posts the 3DS hacking guide in the chat.    
+~confusion: ???    
+F: If you type "F" into chat, Papyrus will do so too!    
+~builds: Posts the link to Luma3DS builds in the chat.    
+~stop: Frank.    
+~ban <@user>: Bans a user.    
+~kick <@user>: Kicks a user.    
+~mute <@user>: Mutes a user in voice.    
 ~unmute <@user>: Unmutes a user in voice.
