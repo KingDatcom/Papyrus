@@ -36,7 +36,7 @@ var bot = new DiscordClient({
     email: "",
     password: "",
     //OR
-    token: "<OAUTH TOKEN HERE>"
+    token: "<TOKEN HERE>"
 });
 // Set the command prefix
 var pf = "~"
@@ -117,6 +117,36 @@ bot.on('message', function(user, userID, channelID, message, rawEvent) {
         bot.sendMessage({
             to: channelID,
             message: "https://www.youtube.com/watch?v=2k0SmqbBIpQ"
+        });
+    }
+    // Send the list of commands to the channel
+    if (message === pf + "help") {
+        bot.sendMessage({
+            to: channelID,
+            message: "**Commands:** \n ~quote: Post a random quote \n ~ping: Pong! \n ~spaghetti: **SPAGHETTI!** \n ~guide: Post the 3DS hacking guide \n ~confusion: ??? \n ~builds: Post the link to Luma3DS builds \n ~stop: **IT'S TIME TO STOP.** \n \n **Mod Commands:** \n ~ban: Bans a user \n ~kick: Kicks a user \n ~mute: Mutes a user in voice \n ~unmute: Unmutes a user in voice"
+        });
+    }
+    // SPAGHETTI!
+    // Create an array of images
+    var imageArray = [
+        'http://i.imgur.com/wV7tKNq.png', 
+        'http://i.imgur.com/DqPQPut.png',
+        'http://i.imgur.com/8c2dAmS.png',
+        'http://i.imgur.com/1xvKCfi.png',
+        'http://i.imgur.com/5zoeT0F.png',
+        'http://i.imgur.com/tLIOSUk.png',
+        'http://i.imgur.com/PbiGatc.png',
+        'http://66.media.tumblr.com/9ca00a9a785c3aa04ac52ba64099f1bd/tumblr_nyf006z5HP1ukilhso1_500.gif',
+        'http://i.imgur.com/8MqpUDg.png',
+        'http://i.imgur.com/939S8W9.jpg',
+        'http://i.imgur.com/jUBHqAv.png',
+    ];
+    // Store a random image from the array in randImage
+    var randImage = imageArray[Math.floor(Math.random() * imageArray.length)];
+    if (message === pf + "spaghetti") {
+        bot.sendMessage({
+            to: channelID,
+            message: randImage
         });
     }
 
