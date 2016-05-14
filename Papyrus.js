@@ -1,3 +1,13 @@
+/* 
+
+    Papyrus.js
+    Copyright (C) 2016 - Mitchell Ward
+
+    This software may be modified and distributed under the terms
+    of the MIT license.  See the LICENSE file for details.
+    
+*/
+
 /*
     
     This bot is designed for the /r/3DShacks Discord server.
