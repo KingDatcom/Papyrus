@@ -83,7 +83,11 @@ bot.on('message', function(user, userID, channelID, message, rawEvent) {
         '\"7/11 was a part-time job.\" -sirocyl', 
         '\"Ain\'t nothing like a good nut.\" -Sans-Serif',
         '\"I fucking hate you guys.\" -Acrone',
-        '\"those were supposed to be swastikas lol.\" -shameless_inc'
+        '\"those were supposed to be swastikas lol.\" -shameless_inc',
+        '\"we 64GB now boys.\" -ilifin',
+        '\"fuckin\' icecream.\" -sirocyl',
+        '\"I was disappointed.\" -Ace Trainer Jenn | キレイハナ',
+        '\"yes it german.\" -Noroxus'
     ];
     // Store a random quote from the array in randQuote
     var randQuote = quoteArray[Math.floor(Math.random() * quoteArray.length)];
