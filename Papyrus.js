@@ -29,6 +29,7 @@ bot.on('disconnected', function() {
     process.exit(1);
 });
 
+
 bot.on('message', function(user, userID, channelID, message, rawEvent) {
     // Ignore the bot's own messages
     if (userID === bot.id) {
